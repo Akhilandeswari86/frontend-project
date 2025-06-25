@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.parent{
+    width: 100vw;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.parent .child1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent .child1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(230, 227, 227, 0.484);
+    font-size: 50px;
+    padding-top: 40px;
+}
+.parent .child1 h2{
+   
+   position: absolute;
+    z-index: 2px;
+    font-size: 30px;
+}
+.parent .child1 p{
+    font-size:22px ; 
+  
+}
+.parent .child2{
+    width: 100%;
+    display: flex;     
+    padding-left: 60px;    
+}
+.parent .child2 .content{
+    width: 80%;
+    height: 500px;
+   padding: 5px;
+   padding-top: 40px;
+    
+}
+.parent .child2 .img{
+    height: 550px;
+    padding: 3px;
+    padding-top: 60px;
+} 
+.parent .child2 .img img{
+    width: 90%;
+    
+    /* padding-left: 150px; */
+    
+}
+.parent .child2 .content h1{
+    font-size: 35px;
+}
+.parent .child2 .content p{
+    font-size: 20px;
+}
+.parent .child2 .content h1, p{
+    padding: 10px;
+}
+.parent .child2 .content button{
+    padding: 10px 30px;
+    background-color: rgb(197, 13, 13);
+    color: white;
+    font-size: 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.parent .child2 .content button:hover{
+    transition: 3sec;
+    background-image: linear-gradient( rgba(216, 206, 206, 0.279),rgba(242, 234, 234, 0.23),rgba(219, 200, 200, 0.356));
+    
+}
+.parent .child2 .content button:hover i{
+    transform: translateX(5px);
+}
+.parent .card{
+    width: 100%;
+    /* border: 1px solid rgba(106, 99, 99, 0.237); */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.parent .card .cards{
+    width: 400px;
+    height: 200px;
+    border:1px solid rgba(133, 130, 130, 0.186) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px 10px;
+    gap: 10px;
+
+}
+.parent .card .cards h3{
+    color: red;
+    padding-left: 10px;
+
+}
+.parent .card .cards h2{
+    padding-left: 10px;
+}
+.parent .child3 {
+    width: 100%;
+    height: 10vh;
+    padding-top: 40px;
+    
+    
+}
+.parent .child3 marquee{
+  padding: 40px;
+  border: 1px solid transparent;
+  background-color: rgba(128, 128, 128, 0.105);
+}
+.parent .child3 marquee img{
+    width: 200px;
+    height: 50px;
+    padding: 0px 30px;
+   
+}
+.parent .child3 marquee img:hover{
+    width: 210px;
+    height: 55px;
+}

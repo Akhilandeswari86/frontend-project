@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    width: 100vw;
+}
+.parent{
+    width: 100vw;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.parent .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent .title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(230, 227, 227, 0.484);
+    font-size: 50px;
+    padding-top: 40px;
+}
+.parent .title h2{
+   padding-top: 20px;
+   position: absolute;
+    z-index: 2px;
+    font-size: 30px;
+}
+.parent .title p{
+    font-size:22px ; 
+  
+}
+.parent .teams {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 15px;
+}
+.parent .teams .team-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    border: 1px solid rgba(127, 120, 120, 0.149);
+    padding: 15px ;
+}
+.parent .teams .team-card .team-img{
+    /* width: 50%;
+    height: 100px; */
+    border: 1px solid transparent;
+    border-radius: 50px;
+    
+}
+.parent .teams .team-card .team-img img{
+    width: 250px;
+    height:250px ;
+    border: 1px solid transparent;
+    border-radius: 50%;
+
+}
+.parent .teams .team-card .team-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 5px;
+}
+.parent .teams .team-card .team-content h4{
+    color: rgba(164, 155, 155, 0.841);
+}
+.parent .teams .team-card .team-content p{
+    color: rgba(164, 155, 155, 0.841);
+    padding-left: 25px;
+}
+.parent .teams .team-card .icons {
+
+    padding-top: 20px;
+}
+.parent .teams .team-card .icons i{
+    color: rgb(163, 154, 154);
+}

@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.service-parent{
+    width: 100vw;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.service-parent .service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.service-parent .service h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(230, 227, 227, 0.484);
+    font-size: 50px;
+    padding-top: 40px;
+}
+.service-parent .service h2{
+   padding-top: 10px;
+   position: absolute;
+    z-index: 2px;
+    font-size: 30px;
+}
+.service-parent .service p{
+    font-size:22px ; 
+  
+}
+.service-parent .service-card {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.service-parent .service-card .s-card{
+    width:400px ;
+    height: 330px;
+    border: 1px solid rgba(128, 128, 128, 0.167);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;    
+}
+.service-parent .service-card .s-card b{
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: rgb(245, 14, 14);
+    background-image: linear-gradient(rgba(233, 218, 218, 0.737), rgba(236, 228, 228, 0.737));
+}
+.service-parent .service-card .s-card i{
+     width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(240, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-16%;
+    left:2%;     
+} 
+.service-parent .service-card .s-card i:hover{
+    color: red;
+}
+.service-parent .service-card .s-card h3{
+    margin: 10px;
+}
+.service-parent .service-card .s-card p{
+    padding-left: 10px;
+    
+}
+.service-parent .service-card .s-card:hover{
+    background-color: red;
+    color: white;
+    transition: 15ms;
+}
+
+.service-parent .service-card .s-card:hover h2{
+    background-color: rgb(232, 95, 10);
+}
+.service-parent .service-sec{
+    width: 100%;
+    height: 30vh;
+}
+.service-parent .service-sec .back-img{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.234),rgba(0, 0, 0, 0.234),rgba(0, 0, 0, 0.234)),url("../project img/cta-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.service-parent .service-sec .img-sec{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1ecec;
+    margin-left: 250px;  
+    gap: 20px; 
+    padding-top: 100px; 
+    /* height: 500px; */
+}
+.service-parent .service-sec .img-sec p{
+    font-size: 20px;
+}
+.service-parent .service-sec .img-sec h2{
+    font-size: 30px;
+}
+.service-parent .service-sec .img-sec button{
+    padding: 10px 25px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.service-parent .service-sec .img-sec button:hover{
+    background: red;
+}
